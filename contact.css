@@ -1,0 +1,88 @@
+body{
+    background-image: url("http://www.sharewonders.com/wp-content/uploads/2013/04/Tullips-of-Holland-1.jpg");
+}
+.floatLeft {
+    float:left;
+    width: 100px;
+}
+
+
+p{
+    color:black;
+
+    float: bottom;
+    margin-left: 100px;
+    vertical-align: bottom;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+ul {
+
+    margin-left: 100px;
+    margin-right: 70%;
+    opacity: .6;
+    background-color: lightgoldenrodyellow;
+    align-content: center;
+    align-self: center;
+
+    border-radius: 20px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 50px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+a:hover:not(.active) {
+    background-color: lightcyan;
+}
+
+#navBar {
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+h1{
+    color: black;
+    font-style: bold;
+    font-size: 500%;
+    text-align: center;
+}
+form{
+    width: 500px;
+    position: fixed;
+    left: 600px;
+    right: 400px;
+    padding: 20px;
+    font-size: 250%;
+    top: 150px;
+    opacity: .9;
+    border-radius: 20px;
+    background-color: lightcoral;
+    float: center;
+    margin-bottom: 150px;
+}
+button{
+    size: 100px;
+}
+#bubble{
+    border-radius: 20px;
+    background-color: lightpink;
+    position: absolute;
+    opacity: .8;
+    top: 150px;
+    padding: 20px 20px;
+    left: 500px;
+    right: 300px;
+    font-size: 200%;
+    text-align: center;
+}

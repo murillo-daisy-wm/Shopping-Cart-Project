@@ -1,0 +1,124 @@
+body{
+    background-image: url("http://cdn.shopify.com/s/files/1/0662/0785/files/shutterstock_295879205_1024x1024.jpg?14216839686253661237");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+h1{
+    color: white;
+    font-style: bold;
+    font-size: 500%;
+    text-align: center;
+}
+
+#circle {
+    width: 140px;
+    height: 140px;
+    -webkit-border-radius: 140px;
+    -moz-border-radius: 140px;
+    border-radius: 140px;
+    background: purple;
+    margin-left: 100px;
+    margin-right: 100%;
+    margin-top: 20px;
+    opacity: .6;
+}
+
+.floatLeft {
+    float:left;
+    width: 100px;
+}
+
+
+p{
+    color:black;
+
+    float: bottom;
+    margin-left: 100px;
+    vertical-align: bottom;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+ul {
+
+    margin-left: 100px;
+    margin-right: 70%;
+    opacity: .6;
+    background-color: lightgoldenrodyellow;
+    align-content: center;
+    align-self: center;
+
+    border-radius: 20px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 50px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+a:hover:not(.active) {
+    background-color: lightcyan;
+}
+
+#navBar {
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+form{
+    width: 500px;
+    position: fixed;
+    left: 600px;
+    right: 400px;
+    padding: 20px;
+    font-size: 250%;
+    top: 150px;
+    opacity: .9;
+    border-radius: 20px;
+    background-color: lightcoral;
+    float: center;
+    margin-bottom: 150px;
+}
+#bubble{
+    border-radius: 20px;
+    background-color: lightpink;
+    margin-left: 80px;
+    margin-right: 100px;
+    position: absolute;
+    left: 450px;
+    opacity: .8;
+    top: 150px;
+    padding: 20px 20px;
+}
+#bubble2{
+    border-radius: 20px;
+    background-color: mediumpurple;
+    margin-left: 80px;
+    margin-right: 100px;
+    position: absolute;
+    left: 450px;
+    opacity: .8;
+    top: 285px;
+    padding: 10px 10px;
+}
+#bubble3{
+    border-radius: 20px;
+    background-color: midnightblue;
+    margin-left: 80px;
+    margin-right: 100px;
+    position: absolute;
+    left: 450px;
+    opacity: .8;
+    top: 450px;
+    padding: 20px 20px;
+}
+

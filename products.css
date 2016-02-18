@@ -1,0 +1,102 @@
+body{
+    background-image: url("http://www.spirit1059.com/pics/Feeds/Articles/2015611/118317/Beach.jpg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    font-style: bold;
+    font-size: 500%;
+    text-align: center;
+}
+
+#circle {
+    width: 140px;
+    height: 140px;
+    -webkit-border-radius: 140px;
+    -moz-border-radius: 140px;
+    border-radius: 140px;
+    background: purple;
+    margin-left: 100px;
+    margin-right: 100%;
+    margin-top: 100px;
+    opacity: .6;
+}
+
+.floatLeft {
+    float:left;
+    width: 100px;
+}
+
+
+p{
+    color:black;
+
+    float: bottom;
+    margin-left: 100px;
+    vertical-align: bottom;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+ul {
+
+    margin-left: 100px;
+    margin-right: 70%;
+    opacity: .6;
+    background-color: peachpuff;
+    align-content: center;
+    align-self: center;
+
+    border-radius: 20px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 50px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 100%;
+}
+
+a:hover:not(.active) {
+    background-color: lightyellow;
+}
+
+#navBar {
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+img{
+    float: right;
+    position: absolute;
+    left: 600px;
+    right: 100px;
+
+    top: 120px;
+}
+table{
+    position: absolute;
+    float: center;
+    left: 200px;
+    right: 200px;
+    top: 750px;
+    font-family: Courier New, Courier, monospace;
+    background-color: lightyellow;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 200%;
+    bottom: 150px;
+    margin-bottom: 150px;
+    opacity: .8;
+}
+th, td {
+    padding: 15px;
+}

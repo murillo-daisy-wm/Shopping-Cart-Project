@@ -13,13 +13,13 @@ Design a multi-page website with the following page designations:
 
 **Students will use HTML, CSS and Javascript to create a fully functioning and attractive website with the following pages:**
 
-Home page
-About
-Contact info
-Products page
+Home page-
+About-
+Contact info-
+Products page-
 Shopping cart
 Checkout
-Frequently Asked Questions
+Frequently Asked Questions-
 Personal Profile
 
 **Build a simple one page product list that has no fewer than 9 (a 3 by 3 image table), products and prices.**
